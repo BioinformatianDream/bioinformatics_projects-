@@ -11,4 +11,9 @@ print("longeur :",longueur)
 print("A:",A)
 print("T:",T)
 print("C:",C)
-print("G:"'G)
+print("G:",G)
+# Calcul du pourcentage GC 
+
+pourcentage_gc = ((G + C) / longueur) * 100
+
+print("Pourcentage GC :", pourcentage_gc, "%")
